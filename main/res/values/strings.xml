@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Microsoft Transact-SQL Test</string>
+    <string name="title">Тест из курса \"Разработка БД MS SQL Service\" ВМК МГУ</string>
+    <string name="testBtn">Начать</string>
+    <string name="alarmBtn">Напомнить</string>
+    <string name="aboutBtn">About</string>
+    <string name="clock">Установить будильник</string>
+    <string name="alarmText">Пора пройти тест</string>
+</resources>

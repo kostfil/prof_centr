@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTop"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="top"
+            android:editable="false"
+            android:textSize="13dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxA"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:gravity="left"
+            android:textSize="13dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxB"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="13dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxC"
+            android:layout_width="match_parent"
+            android:textSize="13dp"
+            android:layout_height="40dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxD"
+            android:layout_width="match_parent"
+            android:textSize="13dp"
+            android:layout_height="40dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxE"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:textSize="13dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxF"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:textSize="13dp" />
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <Button
+                android:id="@+id/NextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp"
+                android:text="NEXT"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/answerBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:text="Ответ"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/resultBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:text="Result"
+                android:textSize="10dp" />
+        </GridLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
